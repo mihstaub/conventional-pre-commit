@@ -1,23 +1,16 @@
 import re
 
-CONVENTIONAL_TYPES = ["feat", "fix"]
+CONVENTIONAL_TYPES = [
+    "ZDD",
+    "DEB"
+]
 DEFAULT_TYPES = [
-    "build",
-    "chore",
-    "ci",
-    "docs",
-    "feat",
-    "fix",
-    "perf",
-    "refactor",
-    "revert",
-    "style",
-    "test",
+    "ZDD",
+    "DEB",
 ]
 AUTOSQUASH_PREFIXES = [
-    "amend",
-    "fixup",
-    "squash",
+    "ZDD",
+    "DEB",
 ]
 
 
